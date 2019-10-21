@@ -130,17 +130,21 @@ print(isThis)
 //var isThisAPangram: Bool = true
 //var alpset = Set(isThis)
 let strOneDisjoint = (strOnePangram).isDisjoint(with: isThis)
+
+ 
+
+
+
 //let strOneDisjoint = (strOnePangram).isSubset(with: isThis) - THIS ONE DOESNT WORK
 
 let strTwoDisjoint = (strTwoPangram).isDisjoint(with: isThis)
-
 
 let strThreeDisjoint = (strThreePangram).isDisjoint(with: isThis)
 
 assert(strOneIsPangram == true, "Was expecting true, but got \(strOneIsPangram)")
 //assert(strTwoIsPangram == false, "Was expecting false, but got \(strTwoIsPangram)")
-//assert(strThreeIsPangram == true, "Was expecting false, but got \(strThreeIsPangram)")
+//assert(strThreeIsPangram == true, “Was expecting false, but got \(strThreeIsPangram)“)
 
-
-let name = "The quick brown fox jumps over the lazy dog".components(separatedBy: " ").joined().lowercased()
-print(name)
+//
+//let name = "The quick brown fox jumps over the lazy dog".components(separatedBy: " ").joined().lowercased()
+//print(name)
